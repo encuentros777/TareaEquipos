@@ -14,6 +14,9 @@
 		DB826B321FAA9C7B00BAEF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB826B311FAA9C7B00BAEF62 /* Assets.xcassets */; };
 		DB826B351FAA9C7B00BAEF62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB826B331FAA9C7B00BAEF62 /* LaunchScreen.storyboard */; };
 		DB826B381FAA9C7B00BAEF62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B371FAA9C7B00BAEF62 /* main.m */; };
+		DB826B421FAAA38700BAEF62 /* tablecontrollers.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B411FAAA38700BAEF62 /* tablecontrollers.m */; };
+		DB826B451FAAA3D100BAEF62 /* tablecontrollerfinal.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B441FAAA3D100BAEF62 /* tablecontrollerfinal.m */; };
+		DB826B481FAAA41100BAEF62 /* final.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B471FAAA41100BAEF62 /* final.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		DB826B341FAA9C7B00BAEF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB826B361FAA9C7B00BAEF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB826B371FAA9C7B00BAEF62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB826B401FAAA38700BAEF62 /* tablecontrollers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tablecontrollers.h; sourceTree = "<group>"; };
+		DB826B411FAAA38700BAEF62 /* tablecontrollers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tablecontrollers.m; sourceTree = "<group>"; };
+		DB826B431FAAA3D100BAEF62 /* tablecontrollerfinal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tablecontrollerfinal.h; sourceTree = "<group>"; };
+		DB826B441FAAA3D100BAEF62 /* tablecontrollerfinal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tablecontrollerfinal.m; sourceTree = "<group>"; };
+		DB826B461FAAA41100BAEF62 /* final.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = final.h; sourceTree = "<group>"; };
+		DB826B471FAAA41100BAEF62 /* final.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = final.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +69,8 @@
 		DB826B241FAA9C7A00BAEF62 /* Tarea5 */ = {
 			isa = PBXGroup;
 			children = (
-				DB826B251FAA9C7B00BAEF62 /* AppDelegate.h */,
-				DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */,
-				DB826B281FAA9C7B00BAEF62 /* ViewController.h */,
-				DB826B291FAA9C7B00BAEF62 /* ViewController.m */,
+				DB826B3F1FAA9CA000BAEF62 /* Controllers */,
+				DB826B3E1FAA9C8D00BAEF62 /* Main */,
 				DB826B2B1FAA9C7B00BAEF62 /* Main.storyboard */,
 				DB826B311FAA9C7B00BAEF62 /* Assets.xcassets */,
 				DB826B331FAA9C7B00BAEF62 /* LaunchScreen.storyboard */,
@@ -72,6 +79,30 @@
 				DB826B2E1FAA9C7B00BAEF62 /* Tarea5.xcdatamodeld */,
 			);
 			path = Tarea5;
+			sourceTree = "<group>";
+		};
+		DB826B3E1FAA9C8D00BAEF62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB826B251FAA9C7B00BAEF62 /* AppDelegate.h */,
+				DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DB826B3F1FAA9CA000BAEF62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB826B281FAA9C7B00BAEF62 /* ViewController.h */,
+				DB826B291FAA9C7B00BAEF62 /* ViewController.m */,
+				DB826B401FAAA38700BAEF62 /* tablecontrollers.h */,
+				DB826B411FAAA38700BAEF62 /* tablecontrollers.m */,
+				DB826B431FAAA3D100BAEF62 /* tablecontrollerfinal.h */,
+				DB826B441FAAA3D100BAEF62 /* tablecontrollerfinal.m */,
+				DB826B461FAAA41100BAEF62 /* final.h */,
+				DB826B471FAAA41100BAEF62 /* final.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +179,10 @@
 				DB826B301FAA9C7B00BAEF62 /* Tarea5.xcdatamodeld in Sources */,
 				DB826B2A1FAA9C7B00BAEF62 /* ViewController.m in Sources */,
 				DB826B381FAA9C7B00BAEF62 /* main.m in Sources */,
+				DB826B421FAAA38700BAEF62 /* tablecontrollers.m in Sources */,
 				DB826B271FAA9C7B00BAEF62 /* AppDelegate.m in Sources */,
+				DB826B451FAAA3D100BAEF62 /* tablecontrollerfinal.m in Sources */,
+				DB826B481FAAA41100BAEF62 /* final.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
