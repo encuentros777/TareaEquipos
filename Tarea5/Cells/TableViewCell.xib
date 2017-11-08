@@ -62,7 +62,7 @@
             <connections>
                 <outlet property="Horario" destination="ISc-I0-nZY" id="KKK-Pv-egy"/>
                 <outlet property="ImagenLocal" destination="B8X-sW-KTh" id="34i-9v-yzH"/>
-                <outlet property="ImagenVisita" destination="H2p-sc-9uM" id="5kJ-cy-WH8"/>
+                <outlet property="ImagenVisita" destination="HDb-6y-vQn" id="Avw-Ou-Xrx"/>
                 <outlet property="Local" destination="OYx-kM-zgW" id="igu-ZF-lso"/>
                 <outlet property="Visita" destination="tSr-z4-YdT" id="nt5-Lg-K5c"/>
             </connections>

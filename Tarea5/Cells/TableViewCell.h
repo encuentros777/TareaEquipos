@@ -11,6 +11,7 @@
 @interface TableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *ImagenLocal;
 @property (strong, nonatomic) IBOutlet UIImageView *ImagenVisita;
+
 @property (strong, nonatomic) IBOutlet UILabel *Local;
 @property (strong, nonatomic) IBOutlet UILabel *Visita;
 @property (strong, nonatomic) IBOutlet UILabel *Horario;

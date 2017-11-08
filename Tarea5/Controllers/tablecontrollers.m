@@ -42,7 +42,7 @@
     
     self.ArrayImageLocal = [[NSMutableArray alloc] initWithObjects: @"America.png", @"Chivas.png", @"Leon.png", @"Pumas.png", @"Atlas.png", nil];
     
-    self.ArrayImageVisita = [[NSMutableArray alloc] initWithObjects: @"America.png", @"Chivas.png", @"Leon.png", @"Pumas.png", @"Atlas.png", nil];
+    self.ArrayImageVisita = [[NSMutableArray alloc] initWithObjects: @"Pumas.png", @"Atlas.png", @"Tigres.jpg", @"Atlas.png", @"America.png", nil];
     
     self.Arrayhorario = [[NSMutableArray alloc] initWithObjects: @"7:00 PM", @"8:00 PM", @"9:00 PM", @"10:00 PM", @"11:00 PM", nil];
     

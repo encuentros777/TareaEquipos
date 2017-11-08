@@ -8,11 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Partidos-->
         <scene sceneID="ySL-NQ-nYJ">
             <objects>
                 <navigationController id="Kn3-7f-AeB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oMl-pS-Nbk"/>
+                    <tabBarItem key="tabBarItem" title="Partidos" id="oMl-pS-Nbk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0kf-Ib-aIL">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
