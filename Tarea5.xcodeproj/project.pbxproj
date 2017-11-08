@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB28CE7E1FB1235500D5D763 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28CE7C1FB1235500D5D763 /* TableViewCell.m */; };
+		DB28CE7F1FB1235500D5D763 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE7D1FB1235500D5D763 /* TableViewCell.xib */; };
+		DB28CE931FB22D7F00D5D763 /* America.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8D1FB22D7D00D5D763 /* America.png */; };
+		DB28CE941FB22D7F00D5D763 /* Chivas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8E1FB22D7E00D5D763 /* Chivas.png */; };
+		DB28CE951FB22D7F00D5D763 /* Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8F1FB22D7E00D5D763 /* Leon.png */; };
+		DB28CE961FB22D7F00D5D763 /* Tigres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE901FB22D7E00D5D763 /* Tigres.jpg */; };
+		DB28CE971FB22D7F00D5D763 /* Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE911FB22D7E00D5D763 /* Atlas.png */; };
+		DB28CE981FB22D7F00D5D763 /* Pumas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE921FB22D7E00D5D763 /* Pumas.png */; };
 		DB826B271FAA9C7B00BAEF62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */; };
 		DB826B2A1FAA9C7B00BAEF62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B291FAA9C7B00BAEF62 /* ViewController.m */; };
 		DB826B2D1FAA9C7B00BAEF62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB826B2B1FAA9C7B00BAEF62 /* Main.storyboard */; };
@@ -20,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB28CE7B1FB1235500D5D763 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DB28CE7C1FB1235500D5D763 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DB28CE7D1FB1235500D5D763 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		DB28CE8D1FB22D7D00D5D763 /* America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = America.png; path = ../../../Imagen/America.png; sourceTree = "<group>"; };
+		DB28CE8E1FB22D7E00D5D763 /* Chivas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chivas.png; path = ../../../Imagen/Chivas.png; sourceTree = "<group>"; };
+		DB28CE8F1FB22D7E00D5D763 /* Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Leon.png; path = ../../../Imagen/Leon.png; sourceTree = "<group>"; };
+		DB28CE901FB22D7E00D5D763 /* Tigres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tigres.jpg; path = ../../../Imagen/Tigres.jpg; sourceTree = "<group>"; };
+		DB28CE911FB22D7E00D5D763 /* Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Atlas.png; path = ../../../Imagen/Atlas.png; sourceTree = "<group>"; };
+		DB28CE921FB22D7E00D5D763 /* Pumas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pumas.png; path = ../../../Imagen/Pumas.png; sourceTree = "<group>"; };
 		DB826B221FAA9C7A00BAEF62 /* Tarea5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB826B251FAA9C7B00BAEF62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +67,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB28CE7A1FB121A000D5D763 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB28CE7B1FB1235500D5D763 /* TableViewCell.h */,
+				DB28CE7C1FB1235500D5D763 /* TableViewCell.m */,
+				DB28CE7D1FB1235500D5D763 /* TableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DB28CE801FB22CE900D5D763 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DB28CE8D1FB22D7D00D5D763 /* America.png */,
+				DB28CE911FB22D7E00D5D763 /* Atlas.png */,
+				DB28CE8E1FB22D7E00D5D763 /* Chivas.png */,
+				DB28CE8F1FB22D7E00D5D763 /* Leon.png */,
+				DB28CE921FB22D7E00D5D763 /* Pumas.png */,
+				DB28CE901FB22D7E00D5D763 /* Tigres.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		DB826B191FAA9C7A00BAEF62 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +109,8 @@
 		DB826B241FAA9C7A00BAEF62 /* Tarea5 */ = {
 			isa = PBXGroup;
 			children = (
+				DB28CE801FB22CE900D5D763 /* Image */,
+				DB28CE7A1FB121A000D5D763 /* Cells */,
 				DB826B3F1FAA9CA000BAEF62 /* Controllers */,
 				DB826B3E1FAA9C8D00BAEF62 /* Main */,
 				DB826B2B1FAA9C7B00BAEF62 /* Main.storyboard */,
@@ -164,8 +206,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB826B351FAA9C7B00BAEF62 /* LaunchScreen.storyboard in Resources */,
+				DB28CE931FB22D7F00D5D763 /* America.png in Resources */,
+				DB28CE971FB22D7F00D5D763 /* Atlas.png in Resources */,
+				DB28CE7F1FB1235500D5D763 /* TableViewCell.xib in Resources */,
 				DB826B321FAA9C7B00BAEF62 /* Assets.xcassets in Resources */,
+				DB28CE951FB22D7F00D5D763 /* Leon.png in Resources */,
+				DB28CE981FB22D7F00D5D763 /* Pumas.png in Resources */,
 				DB826B2D1FAA9C7B00BAEF62 /* Main.storyboard in Resources */,
+				DB28CE941FB22D7F00D5D763 /* Chivas.png in Resources */,
+				DB28CE961FB22D7F00D5D763 /* Tigres.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +230,7 @@
 				DB826B381FAA9C7B00BAEF62 /* main.m in Sources */,
 				DB826B421FAAA38700BAEF62 /* tablecontrollers.m in Sources */,
 				DB826B271FAA9C7B00BAEF62 /* AppDelegate.m in Sources */,
+				DB28CE7E1FB1235500D5D763 /* TableViewCell.m in Sources */,
 				DB826B451FAAA3D100BAEF62 /* tablecontrollerfinal.m in Sources */,
 				DB826B481FAAA41100BAEF62 /* final.m in Sources */,
 			);

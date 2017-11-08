@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface tablecontrollers : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tbmain;
 
 @end
