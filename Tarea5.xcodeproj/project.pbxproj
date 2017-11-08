@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5EF160F5EF30C543D0B5FBC /* libPods-Tarea5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D307CEF4B82BA764EA38F563 /* libPods-Tarea5.a */; };
 		DB28CE7E1FB1235500D5D763 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28CE7C1FB1235500D5D763 /* TableViewCell.m */; };
 		DB28CE7F1FB1235500D5D763 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE7D1FB1235500D5D763 /* TableViewCell.xib */; };
-		DB28CE931FB22D7F00D5D763 /* America.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8D1FB22D7D00D5D763 /* America.png */; };
-		DB28CE941FB22D7F00D5D763 /* Chivas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8E1FB22D7E00D5D763 /* Chivas.png */; };
-		DB28CE951FB22D7F00D5D763 /* Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE8F1FB22D7E00D5D763 /* Leon.png */; };
-		DB28CE961FB22D7F00D5D763 /* Tigres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE901FB22D7E00D5D763 /* Tigres.jpg */; };
-		DB28CE971FB22D7F00D5D763 /* Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE911FB22D7E00D5D763 /* Atlas.png */; };
-		DB28CE981FB22D7F00D5D763 /* Pumas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE921FB22D7E00D5D763 /* Pumas.png */; };
+		DB28CE9F1FB3ADC800D5D763 /* America.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE991FB3ADC600D5D763 /* America.png */; };
+		DB28CEA01FB3ADC800D5D763 /* Chivas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE9A1FB3ADC600D5D763 /* Chivas.png */; };
+		DB28CEA11FB3ADC800D5D763 /* Tigres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE9B1FB3ADC600D5D763 /* Tigres.jpg */; };
+		DB28CEA21FB3ADC800D5D763 /* Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE9C1FB3ADC700D5D763 /* Atlas.png */; };
+		DB28CEA31FB3ADC800D5D763 /* Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE9D1FB3ADC700D5D763 /* Leon.png */; };
+		DB28CEA41FB3ADC800D5D763 /* Pumas.png in Resources */ = {isa = PBXBuildFile; fileRef = DB28CE9E1FB3ADC700D5D763 /* Pumas.png */; };
 		DB826B271FAA9C7B00BAEF62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */; };
 		DB826B2A1FAA9C7B00BAEF62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB826B291FAA9C7B00BAEF62 /* ViewController.m */; };
 		DB826B2D1FAA9C7B00BAEF62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB826B2B1FAA9C7B00BAEF62 /* Main.storyboard */; };
@@ -28,15 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CC8EC481CEA01C77D1B2A88 /* Pods-Tarea5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea5/Pods-Tarea5.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD8DCBFD4E7B39D4D24FBB0 /* Pods-Tarea5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea5.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea5/Pods-Tarea5.release.xcconfig"; sourceTree = "<group>"; };
+		D307CEF4B82BA764EA38F563 /* libPods-Tarea5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarea5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB28CE7B1FB1235500D5D763 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		DB28CE7C1FB1235500D5D763 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		DB28CE7D1FB1235500D5D763 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		DB28CE8D1FB22D7D00D5D763 /* America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = America.png; path = ../../../Imagen/America.png; sourceTree = "<group>"; };
-		DB28CE8E1FB22D7E00D5D763 /* Chivas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chivas.png; path = ../../../Imagen/Chivas.png; sourceTree = "<group>"; };
-		DB28CE8F1FB22D7E00D5D763 /* Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Leon.png; path = ../../../Imagen/Leon.png; sourceTree = "<group>"; };
-		DB28CE901FB22D7E00D5D763 /* Tigres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tigres.jpg; path = ../../../Imagen/Tigres.jpg; sourceTree = "<group>"; };
-		DB28CE911FB22D7E00D5D763 /* Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Atlas.png; path = ../../../Imagen/Atlas.png; sourceTree = "<group>"; };
-		DB28CE921FB22D7E00D5D763 /* Pumas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pumas.png; path = ../../../Imagen/Pumas.png; sourceTree = "<group>"; };
+		DB28CE991FB3ADC600D5D763 /* America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = America.png; path = Imagen/America.png; sourceTree = SOURCE_ROOT; };
+		DB28CE9A1FB3ADC600D5D763 /* Chivas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chivas.png; path = Imagen/Chivas.png; sourceTree = SOURCE_ROOT; };
+		DB28CE9B1FB3ADC600D5D763 /* Tigres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tigres.jpg; path = Imagen/Tigres.jpg; sourceTree = SOURCE_ROOT; };
+		DB28CE9C1FB3ADC700D5D763 /* Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Atlas.png; path = Imagen/Atlas.png; sourceTree = SOURCE_ROOT; };
+		DB28CE9D1FB3ADC700D5D763 /* Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Leon.png; path = Imagen/Leon.png; sourceTree = SOURCE_ROOT; };
+		DB28CE9E1FB3ADC700D5D763 /* Pumas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pumas.png; path = Imagen/Pumas.png; sourceTree = SOURCE_ROOT; };
 		DB826B221FAA9C7A00BAEF62 /* Tarea5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB826B251FAA9C7B00BAEF62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB826B261FAA9C7B00BAEF62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,12 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EF160F5EF30C543D0B5FBC /* libPods-Tarea5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98C1E816FD090FA9251E6C1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CC8EC481CEA01C77D1B2A88 /* Pods-Tarea5.debug.xcconfig */,
+				7CD8DCBFD4E7B39D4D24FBB0 /* Pods-Tarea5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C01CC3401B57CA899C50BCC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D307CEF4B82BA764EA38F563 /* libPods-Tarea5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB28CE7A1FB121A000D5D763 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +102,12 @@
 		DB28CE801FB22CE900D5D763 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				DB28CE8D1FB22D7D00D5D763 /* America.png */,
-				DB28CE911FB22D7E00D5D763 /* Atlas.png */,
-				DB28CE8E1FB22D7E00D5D763 /* Chivas.png */,
-				DB28CE8F1FB22D7E00D5D763 /* Leon.png */,
-				DB28CE921FB22D7E00D5D763 /* Pumas.png */,
-				DB28CE901FB22D7E00D5D763 /* Tigres.jpg */,
+				DB28CE991FB3ADC600D5D763 /* America.png */,
+				DB28CE9C1FB3ADC700D5D763 /* Atlas.png */,
+				DB28CE9A1FB3ADC600D5D763 /* Chivas.png */,
+				DB28CE9D1FB3ADC700D5D763 /* Leon.png */,
+				DB28CE9E1FB3ADC700D5D763 /* Pumas.png */,
+				DB28CE9B1FB3ADC600D5D763 /* Tigres.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -95,6 +117,8 @@
 			children = (
 				DB826B241FAA9C7A00BAEF62 /* Tarea5 */,
 				DB826B231FAA9C7A00BAEF62 /* Products */,
+				98C1E816FD090FA9251E6C1B /* Pods */,
+				C01CC3401B57CA899C50BCC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB826B3B1FAA9C7B00BAEF62 /* Build configuration list for PBXNativeTarget "Tarea5" */;
 			buildPhases = (
+				FAE91D29B39DBE0A63CF11D4 /* [CP] Check Pods Manifest.lock */,
 				DB826B1E1FAA9C7A00BAEF62 /* Sources */,
 				DB826B1F1FAA9C7A00BAEF62 /* Frameworks */,
 				DB826B201FAA9C7A00BAEF62 /* Resources */,
+				700F85AA64DA4F9B07322804 /* [CP] Embed Pods Frameworks */,
+				4ACEADED6A7ECE3AB62A25C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,20 +232,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB28CEA31FB3ADC800D5D763 /* Leon.png in Resources */,
 				DB826B351FAA9C7B00BAEF62 /* LaunchScreen.storyboard in Resources */,
-				DB28CE931FB22D7F00D5D763 /* America.png in Resources */,
-				DB28CE971FB22D7F00D5D763 /* Atlas.png in Resources */,
+				DB28CEA21FB3ADC800D5D763 /* Atlas.png in Resources */,
+				DB28CEA11FB3ADC800D5D763 /* Tigres.jpg in Resources */,
+				DB28CE9F1FB3ADC800D5D763 /* America.png in Resources */,
 				DB28CE7F1FB1235500D5D763 /* TableViewCell.xib in Resources */,
+				DB28CEA41FB3ADC800D5D763 /* Pumas.png in Resources */,
 				DB826B321FAA9C7B00BAEF62 /* Assets.xcassets in Resources */,
-				DB28CE951FB22D7F00D5D763 /* Leon.png in Resources */,
-				DB28CE981FB22D7F00D5D763 /* Pumas.png in Resources */,
 				DB826B2D1FAA9C7B00BAEF62 /* Main.storyboard in Resources */,
-				DB28CE941FB22D7F00D5D763 /* Chivas.png in Resources */,
-				DB28CE961FB22D7F00D5D763 /* Tigres.jpg in Resources */,
+				DB28CEA01FB3ADC800D5D763 /* Chivas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ACEADED6A7ECE3AB62A25C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea5/Pods-Tarea5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700F85AA64DA4F9B07322804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea5/Pods-Tarea5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE91D29B39DBE0A63CF11D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tarea5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB826B1E1FAA9C7A00BAEF62 /* Sources */ = {
@@ -364,6 +442,7 @@
 		};
 		DB826B3C1FAA9C7B00BAEF62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC8EC481CEA01C77D1B2A88 /* Pods-Tarea5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +456,7 @@
 		};
 		DB826B3D1FAA9C7B00BAEF62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD8DCBFD4E7B39D4D24FBB0 /* Pods-Tarea5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

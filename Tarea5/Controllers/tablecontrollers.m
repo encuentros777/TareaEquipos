@@ -76,7 +76,7 @@
     
     //Fill cell with info from arrays
     cell.Local.text       = self.ArrayLocal[indexPath.row];
-    cell.Visita.text       = self.ArrayLocal[indexPath.row];
+    cell.Visita.text       = self.ArrayVisita[indexPath.row];
     cell.Horario.text       = self.Arrayhorario[indexPath.row];
     
     cell.ImagenLocal.image    = [UIImage imageNamed:self.ArrayImageLocal[indexPath.row]];
